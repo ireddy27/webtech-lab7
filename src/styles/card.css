@@ -1,0 +1,71 @@
+.card{
+    position: relative;
+    background-color: #F6EBDA;
+    height: 400px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+    top:300px;
+  }
+  .card--bgimage {
+    height: 400px; /* Adjust this to the image height */
+    width:fit-content;
+  }
+  .card--rect{
+    position: absolute;
+    width: 220px;
+    height: 290px;
+    left: 240px; /* Adjust this as needed */
+    top: -70px; /* Adjust this as needed */
+    background-color:whitesmoke;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  
+  }
+  .card--cafe{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 250px; /* Adjust this as needed */
+    top: -60px; /* Adjust this as needed */
+  }
+  .card--about{
+  position: absolute;
+  left: 600px; /* Adjust this as needed */
+  top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-left: 200px;
+  }
+  .card--content {
+    position: absolute;
+    font-family: 'Poppins';
+    top: -60px;
+    left: 550px;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 36px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 20px;
+    font-style: normal;
+  }
+  
+  .card--sentence {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items:left;
+    padding-right: 40px;
+   /* Adjust spacing as needed */
+  }
+  .card--about1{
+    position: relative;
+
+  }

@@ -1,0 +1,74 @@
+.hero{
+    position: relative;
+    height: 500px;
+    background-color: #F6EBDA;
+    padding: 20px 36px;
+  }
+.hero--section{
+    margin-left: 60px;
+}
+.hero--image{
+position: absolute;
+width: 500.11px;
+height: 300.11px;
+left: 780.44px;
+top: -52px;
+}
+.hero--image1 {
+    position: absolute;
+    width: 250.11px;
+    height: 255.11px;
+    left: 905.44px;
+    top: 10.47px;
+    image: process.env.PUBLIC_URL +"/images/collage.jpeg"; /* Path to the second background image */
+    background-size: cover; /* Adjust this as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image */
+    opacity: 1; /* Adjust the opacity as needed */
+    /* Other styles for the pseudo-element */
+}    
+.hero--head1{
+    position: absolute;
+    width: 549.96px;
+    height: 79px;
+    left: 160.31px;
+    top: -30.68px;
+    
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 78px;
+    /* identical to box height, or 117% */
+    
+    color: #FF912B;
+}
+.hero--head2{
+    position: absolute;
+    width: 549.96px;
+    height: 79px;
+    left: 200.31px;
+    top: 35.68px;
+    
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 78px;
+    /* identical to box height, or 117% */
+    
+    color: #FF912B;
+}
+.hero--sent{
+    position: absolute;
+    height: 101px;
+    left: 160px;
+    right: 550px;
+    top: 170px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.75px;
+    line-height: 34px;
+}

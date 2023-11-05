@@ -1,0 +1,105 @@
+.nav{
+    display: flex;
+    background-color: #F6EBDA;
+    padding: 20px 36px;
+  }
+  .nav--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px; /* Adjust the gap as needed */
+    }
+  .nav--logo{
+    max-width: 50px;
+  
+  }
+  .btn-class{
+    display: flex;
+    gap: 10px;
+  }
+  .nav--name{
+    
+    font-size: 30px; /* Adjust the font size as needed */
+    color: black;    /* Adjust the color as needed */
+    font-style: thin;
+    font-family: 'Trattatello', sans-serif;
+  }
+  .nav--About{
+    position: absolute;
+    width: 100px;
+    height: 62px;
+    left: 554px;
+    top: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color:#FF912B;
+  }
+  .nav--Menu{
+    position: absolute;
+    width: 80px;
+    height: 27px;
+    left: 690px;
+    top: 27px;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  }
+  .nav--reservation{
+    position: absolute;
+    width: 71px;
+    height: 27px;
+    left: 815px;
+    top: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+  }
+  .nav--search{
+    position: absolute;
+    width: 222px;
+    height: 42px;
+    left: 950px;
+    top: 50px;
+    padding-left: 30px;
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+  .nav--clogo{
+    position: absolute;
+    left: 93.33%;
+    right: 13.38%;
+    top: 7.5%;
+    bottom: 13.5%;
+    max-width: 30px;
+    max-height:30px;
+  }
+  
+
+  
+.nav--btn{
+
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
