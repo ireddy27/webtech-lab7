@@ -1,0 +1,18 @@
+*{
+  box-sizing :border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Playfair Display',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Playfair Display'
+    monospace;
+}
+.element-with-shadow {
+  background-color:#64731e; /* Your background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, shadow color */
+}
